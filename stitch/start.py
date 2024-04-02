@@ -20,7 +20,7 @@ async def start_1(client, message):
                     )
             await asyncio.sleep(4)
             await message.reply(print_id)
-            await asyncio.sleep(1)
+            await asyncio.sleep(2o)
             await message.reply(points)
         await client.request_callback_answer(
                     chat_id=message.chat.id,
@@ -49,7 +49,7 @@ async def start_3(client, message):
     if ' ' in link:
         link = link.split(' ')[0]
     await client.join_chat(link)
-    await asyncio.sleep(0.5)
+    await asyncio.sleep(4)
     try:
         await client.request_callback_answer(
             chat_id=message.chat.id,
