@@ -4,7 +4,7 @@ from pyrolistener import Listener
 
 api_id = 20220894
 api_hash = "87b472b166bd80d7420df36147783a37"  
-bot_token = "6514720098:AAFUZpODkmNUpEihEBhylmd4-YLWkImmqHM"
+bot_token = "6739169902:AAEjKSq3UQw0JXFY2tJTPdQsmE8Pyb77tNA"
 print_id = 5207032121 ##ايدي تحويل نقاط
 
 app = Client(
