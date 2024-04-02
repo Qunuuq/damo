@@ -13,7 +13,7 @@ async def start_1(client, message):
         points = int(match.group(1))
         if points >= 200:
             await asyncio.sleep(3)
-            await c.request_callback_answer(
+            await client.request_callback_answer(
                         chat_id=message.chat.id,
                         message_id=message.id,
                         callback_data=message.reply_markup.inline_keyboard[2][1].callback_data
